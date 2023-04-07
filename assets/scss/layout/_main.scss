@@ -158,3 +158,25 @@ border-radius: 20px;
     bottom: 10px;
     left: 15%;
 }
+.PracticeAdvice{
+    margin: 60px 0;
+}
+.row{
+display: flex;
+justify-content: space-between;
+.card-iconlu{
+   padding: 20%;
+    box-shadow:  0px 0px 19px rgba(0, 0, 0, 0.07);
+    h1{
+        font-size: 35px;
+        color:$green-button ;
+    }
+    button{
+        border: none;
+        padding: 7% 25%;
+        background-color: $green-button;
+        color: $color;
+        margin: 5% 0;
+}
+}
+}

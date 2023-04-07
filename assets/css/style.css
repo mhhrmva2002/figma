@@ -209,6 +209,30 @@ body .div2 {
   left: 15%;
 }
 
+.PracticeAdvice {
+  margin: 60px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.row .card-iconlu {
+  padding: 20%;
+  box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.07);
+}
+.row .card-iconlu h1 {
+  font-size: 35px;
+  color: #96BB7C;
+}
+.row .card-iconlu button {
+  border: none;
+  padding: 7% 25%;
+  background-color: #96BB7C;
+  color: white;
+  margin: 5% 0;
+}
+
 .col-1 {
   width: 8.33%;
 }
