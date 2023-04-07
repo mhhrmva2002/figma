@@ -1,0 +1,183 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  position: relative;
+  top: 0;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  padding-left: 10%;
+}
+header button {
+  margin: 0 15%;
+  width: 70px;
+  padding: 10% 1%;
+  background-color: rgb(103, 143, 103);
+  color: white;
+  border: 2px solid rgb(13, 221, 13);
+}
+
+body .div1 {
+  border-bottom-right-radius: 30px;
+  width: 90px;
+  height: 150px;
+  background-color: rgba(103, 143, 103, 0.322);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .div2 {
+  border-bottom-left-radius: 40px;
+  width: 700px;
+  height: 700px;
+  background-color: rgba(103, 143, 103, 0.322);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.first-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+  text-align: center;
+}
+.first-main h1 {
+  padding: 5% 0;
+  font-size: 50px;
+}
+.first-main button {
+  border-radius: 10px;
+  margin-top: 7%;
+  padding: 3% 8%;
+}
+.first-main .first-button {
+  background-color: rgb(103, 143, 103);
+  color: white;
+}
+.first-main .second-button {
+  border: 2px dashed rgb(103, 143, 103);
+  color: rgb(103, 143, 103);
+}
+
+.icons {
+  margin: 5% 17% 0;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.Approdable {
+  margin: 0 15% 5%;
+}
+.Approdable p {
+  color: rgb(103, 143, 103);
+}
+.Approdable h1 {
+  font-size: 30px;
+}
+.Approdable .problems {
+  color: black;
+}
+
+.card {
+  margin-left: 5%;
+  padding: 5% 10%;
+  height: 200px;
+  width: 100%;
+  box-shadow: 20px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.bosh-div {
+  margin: 7% 0;
+  width: 40%;
+  border: 2px solid red;
+}
+
+.col-12 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-3 {
+  padding: 2%;
+}
+
+.container {
+  margin: 0 20%;
+}
+
+#green_card {
+  background-color: rgb(103, 143, 103) !important;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
