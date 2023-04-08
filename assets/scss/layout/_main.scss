@@ -180,3 +180,17 @@ justify-content: space-between;
 }
 }
 }
+.col-6{
+    .imgs{
+        p{
+            margin: 5% 0;
+        }
+        text-align: center;
+        svg{
+            border-radius: 50%;
+        }
+    }
+}
+.section-end{
+    text-align: center;
+}
